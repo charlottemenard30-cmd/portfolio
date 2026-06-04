@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body 
+	{background: #f7f8fc; 
+	font-family:"Bitcount Prop Double","Montserrat"
+	}
+
+h1
+	{ font-family: "Bitcount Prop Double";
+	color : #2b2e77;
+	font-size : 600%;
+	font-weight: 400;
+	text-align : right;
+	}
+
+
+h2
+	{font-family: "Montserrat";
+	 text-align: right; 
+	font-size: 100%;
+	margin-top, 20px;
+	font-weight: 400;
+	}
+h3
+	{font-family: "Bitcount Prop Double";
+	 text-align: left;
+	 font-size: 100%;
+	 font-weight: 400;
+	 margin-top: 20px;
+	 }
+h4
+	{color : #2b2e77;
+	 font-family: "Bitcount Prop Double";
+	 text-align: left;
+	 font-size: 300%;
+	 font-weight: 400;
+	 margin-top: 20px;
+	 margin-left: 20px;
+	}
+
+ 
+.galery
+	{display: flex ;
+	justify-content: center;
+	gap: 90px;
+	margin-top: 50px;
+	width 100%;
+	flex-wrap: wrap;
+	}
+
+.home-page
+	{ width: 27%;
+	 border-radius: 10px;
+	 height: auto;
+	}
+.yo
+	 {width: 37%;
+	 gap: 20px;}
+	 
+	 
+	
+
+.parts
+	{display: flex;
+	 flex-direction: lign;
+	 padding: 0 5%;
+	 gap: 80px; 
+	 margin-top: 20px;
+	 justify-content: left;
+	 max-width: 100%;
+	 }
+.subpart
+	 {font-family: "Bitcount Prop Double";
+	  font-size: 30px;
+	} 
+
+.clearbutton
+	{ border-radius: 15px;
+	 width: 80px;
+	  margin-top: 20px;
+	 height: fit-content;
+	}
+.design
+	{ gap: 90px;
+	 width: 100%;
+	 display: flex;
+         flex-direction: column;
+	 align-items: center;
+	 }
+.designer
+	{ width: 800px;
+	 height: auto !important;
+
+	}
+
+.left
+	 {display: flex;
+	  width: 45%;
+	 justify-content: flex-start;
+         padding-left: 5%;
+	 align-items: center; 
+	 gap: 120px;
+	 display: flex;
+	}
+.right
+	 { width: 45%;
+	 justify-content: flex-end;
+         padding-right: 5%;
+	 display: flex;
+	 align-items: center; 
+	 text-align: right;
+	 gap: 120px;
+	}
+.description 
+	{font-family: "Montserrat";
+   	 color: black;
+         font-size: 1.2rem;
+	 width: 1000px;
+	
+	 }
+ul
+	{font-family: "Montserrat"; 
+	 font-size: 1.2rem;
+	 text-align: left;
+	}
+	
